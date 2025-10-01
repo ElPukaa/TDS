@@ -1,4 +1,4 @@
-[200~# Tecnologías de Desarrollo de Software
+# Tecnologías de Desarrollo de Software
 ## Curso 2025/2026 - 29 de septiembre de 2025
 **Facultad de Informática - Universidad de Murcia**
 
