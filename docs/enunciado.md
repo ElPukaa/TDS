@@ -1,5 +1,7 @@
 # Tecnologías de Desarrollo de Software
+
 ## Curso 2025/2026 - 29 de septiembre de 2025
+
 **Facultad de Informática - Universidad de Murcia**
 
 ---
@@ -12,7 +14,7 @@ Además de la interfaz gráfica antes comentada, el sistema debe ofrecer adicion
 
 ### Visualización de Datos
 
-El sistema ofrecerá diversas formas de presentar la información registrada. Entre ellas, se incluirá la consulta en formato de tabla/lista, así como la representación gráfica mediante diagramas de barras y/o circulares, que facilitarán la comprensión de la distribución de los gastos por categorías. Considerar el uso de visualizaciones avanzadas, como por ejemplo mostrar los gastos en un calendario (CalendarFX - https://dlsc-software-consulting-gmbh.github.io/CalendarFX/ usando una visualización Full Day, por ejemplo).
+El sistema ofrecerá diversas formas de presentar la información registrada. Entre ellas, se incluirá la consulta en formato de tabla/lista, así como la representación gráfica mediante diagramas de barras y/o circulares, que facilitarán la comprensión de la distribución de los gastos por categorías. Considerar el uso de visualizaciones avanzadas, como por ejemplo mostrar los gastos en un calendario (CalendarFX - <https://dlsc-software-consulting-gmbh.github.io/CalendarFX/> usando una visualización Full Day, por ejemplo).
 
 ### Filtrado de Datos
 
@@ -77,6 +79,7 @@ Habrá que subir un fichero ZIP con el repositorio comprimido a la tarea de Aula
 ### README.MD
 
 El repositorio debe contener un **README.MD** con:
+
 - Nombre de los integrantes del grupo (mail y subgrupo de pertenencia)
 - Descripción breve de qué hace el proyecto
 - Cómo ejecutar el proyecto
@@ -86,7 +89,7 @@ El repositorio debe contener un **README.MD** con:
 
 Para el resto de documentación, crear una carpeta **/docs** en el repositorio. Incluir en esta carpeta el resto de la documentación del proyecto, en uno o varios ficheros .md (markdown). Para incluir imágenes en la documentación en .md, crear una carpeta **/imágenes** (dentro de /docs) donde depositar las imágenes y referenciarlas en markdown.
 
-> **NOTA:** Aquí un enlace con ayuda sobre la sintaxis de markdown: https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+> **NOTA:** Aquí un enlace con ayuda sobre la sintaxis de markdown: <https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax>
 
 ### Contenidos de la documentación
 
