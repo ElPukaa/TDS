@@ -1,5 +1,21 @@
 # Historias de usuario
 
+---
+Plantilla para copiar y pegar: 
+
+
+**Como**: 
+**Quiero**:
+**Para**
+
+Criterios de validación:
+-
+-
+-
+
+---
+
+
 ## Acceso usuarios
 
 ### 0. Historia de Usuario: Registro de un nuevo usuario
@@ -31,20 +47,32 @@ Criterios de validación:
 
 ### 0. Historia de Usuario: Crear cuentas de gasto individual
 
-**Como**: \
-**Quiero**: \
-**Para**: \
+**Como**: usuario registrado\
+**Quiero**: poder crear una nueva cuenta personal de gastos\
+**Para**: gestionar y organizar mis gastos\
 
 Criterios de validación:
-
--
--
--
+- La cuenta debe tener un nombre único
+- La cuenta debe estar asociada al usuario que la crea
+- El saldo inicial debe ser 0
 
 ### 0. Historia de Usuario: Crear cuentas de gasto compartidas
+**Como**: usuario registrado\
+**Quiero**: poder crear una nueva cuenta de gastos compartida con otros usuarios\
+**Para**: gestionar y organizar gastos en grupo\
+
+Criterios de validación:
+- La cuenta debe tener un nombre único
+- La cuenta debe estar asociada a los usuarios que la crean
+- El saldo inicial debe ser 0
 
 ### 0. Historia de Usuario: Definir porcentaje en cuentas de gasto compartidas
+**Como**: usuario registrado\
+**Quiero**: poder definir el porcentaje de pago correspondiente en la cuenta a cada usuario\
+**Para**: gestionar y organizar los gastos compartidos de forma equitativa\
 
+Criterios de validación:
+- La suma de los porcentajes individuales debe ser IGUAL a 100
 ---
 
 ## Importar/Exportar datos
