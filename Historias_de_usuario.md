@@ -1,21 +1,5 @@
 # Historias de usuario
 
----
-Plantilla para copiar y pegar: 
-
-
-**Como**: 
-**Quiero**:
-**Para**
-
-Criterios de validación:
--
--
--
-
----
-
-
 ## Acceso usuarios
 
 ### 0. Historia de Usuario: Registro de un nuevo usuario
@@ -29,9 +13,7 @@ Criterios de verificación:
 - El formulario debe solicitar el nombre.\
 - El nombre no puede estar vacío.\
 - Si el nombre ya está registrado notificar al usuario del error\
-- Si el registro ha sido correcto iniciar sesión\
 
-<!-- (Hugo) Es necesario implementar inicio de sesión?-->
 
 ### 0. Historia de Usuario: Inicio de sesión
 
@@ -40,6 +22,9 @@ Criterios de verificación:
 **Para**: acceder a la app\
 
 Criterios de validación:
+
+- El nombre no puede estar vacío.\
+- El usuario debe estar registrado.\
 
 ---
 
@@ -79,19 +64,72 @@ Criterios de validación:
 
 ### 0. Historia de Usuario: Importar datos desde un archivo
 
+**Como**: usuario autenticado\
+**Quiero**: poder seleccionar un archivo de gastos\
+**Para**: poder hacerlo automaticamente, ahorrando tiempo\
+
+Criterios de validación:
+- El sistema soporta la importación del formato de archivo de ejemplo proporcionado.
+- El archivo debe tener tamaño > 0
+- El archivo seleccionado debe contener datos correctos
+
+
 ### 0. Historia de Usuario: Exportar datos a un archivo
+
+**Como**: usuario autenticado\
+**Quiero**: exportar la cuenta completa de gastos\
+**Para**: realizar copias de seguridad o compartir\
+
+Criterios de validación:
+
+- El formato del archivo exportado debe ser compatible con los permitidos para importar.\
+- El archivo exportado debe contener todos los gastos/modificaciones hechas en la cuenta.\
 
 ---
 
 ## Gestion de categorías
 
+### 0. Historia de Usuario: Crear categoría
+
+**Como**: usuario autenticado\
+**Quiero**: poder crear una categoría\
+**Para**: asociar y clasificar los gastos\
+
+Criterios de validación:
+
+- Debe existir una cuenta de gasto.
+- 
+
+
 ### 0. Historia de Usuario: Ver categorías
 
-### 0. Historia de Usuario: Crear categoría
+**Como**: usuario autenticado\
+**Quiero**: ver un listado en distintos formatos (tabla/lista/gráficas) de todas las categorías de gasto disponibles\
+**Para**: gestionar los gastos por categorías\
+
+Criterios de validación:
+- Debe existir al menos una categoría 
+
 
 ### 0. Historia de Usuario: Actualizar categoría
 
----
+**Como**: usuario autenticado\
+**Quiero**: actulizar una categoria\
+**Para**: modificar su nombre\
+
+Criterios de validación:
+- Debe existir una categoría
+- El nuevo nombre debe NO estar vacío
+
+### 0. Historia de Usuario: Eliminar categoría
+
+**Como**: usuario autenticado\
+**Quiero**: poder eliminar una categoría\
+**Para**: gestionar las categorías y los gastos nuevamente\
+
+Criterios de validación:
+- La categoria debe existir
+<!-- al eliminar una categoria se pregunta si eliminar todos los gastos asociados o por el contrario dejar los gastos con una categoria general -->
 
 ## Gestión de gastos
 
@@ -125,7 +163,6 @@ Criterios de validación:
 - El gasto debe existir
 - La cantidad del gasto debe ser positiva\
 - La fecha debe ser válida\
-- Debe haber al menos 1 usuario incluido en el gasto (CONSULTAR FUNCIONALIDAD DE LA APP; SE AÑADE UN GASTO A LA CUENTA O EN EL GASTO SE PUEDEN SELECCIONAR LOS USUARIOS (en este caso hay que hacer más cosas))\
 
 ### 0. Historia de Usuario: Configurar alertas
 
@@ -134,22 +171,8 @@ Criterios de validación:
 **Para**: poder controlar el gasto máximo en un periodo de tiempo establecido\ 
 
 Criterios de validación:
-- El periodo de tiempo debe ser positivo/válido (se va a hacer en formato fecha (hasta el xx/yy/zzzz) o (los proximos 30 dias/semanas/años))\
 
----
-<!-- (Nacho) No veo claro la diferenciación con la gestio  de gastos individual-->>
-
-## Gestión de gastos comparidos
-
-### 0. Historia de Usuario: Añadir gastos (fecha, cantidad)
-
-### 0. Historia de Usuario: Eliminar gastos compartidos
-
-### 0. Historia de Usuario: Actualizar gastos compartidos
-
-### 0. Historia de Usuario: Filtrar listas compartidas (fechas)
-
-### 0. Historia de Usuario: Configurar alertas compartidas
+- El periodo de tiempo debe ser positivo/válido (> 0 dias/semanas/meses/años)\
 
 ---
 
@@ -159,21 +182,38 @@ Criterios de validación:
 
 ### 0. Historia de Usuario: Visualizar gastos en forma de lista
 
+**Como**: usuario autenticado\
+**Quiero**: poder visualizar las categorías en un formato de lista\
+**Para**: gestionar las categorías en un formato de lista\
+
+Criterios de validación:
+- Debe existir la categoría
+
 ### 0. Historia de Usuario: Visualizar gastos en forma de gráfico
+
+**Como**: usuario autenticado\
+**Quiero**: poder visualizar las categorías en un formato de graficas(de barras/circulares)\
+**Para**: gestionar las categorías en un formato de graficas\
+
+Criterios de validación:
+- Debe existir la categoría
 
 ### 0. Historia de Usuario: Visualizar gastos en forma de calendario
 
-### 0. Historia de Usuario: Visualizar gastos en forma de calendario en un intervalo de tiempo
-
-
-
-
-**Como**: \
-**Quiero**: \
-**Para**: \
+**Como**: usuario autenticado\
+**Quiero**: poder visualizar las categorías en un formato de calendario\
+**Para**: gestionar las categorías en un formato de calendario\
 
 Criterios de validación:
+- Debe existir la categoría
 
--
--
--
+### 0. Historia de Usuario: Visualizar gastos en forma de calendario en un intervalo de tiempo
+
+**Como**: usuario autenticado\
+**Quiero**: poder visualizar las categorías en un intervalo de dos fechas\
+**Para**: gestionar las categorías en un espacio de tiempo determinado\
+
+Criterios de validación:
+- Debe existir la categoría
+- Ambas fechas deben ser válidas
+- La primera fecha debe ser anterior a la segunda
