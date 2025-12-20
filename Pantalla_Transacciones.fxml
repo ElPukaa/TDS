@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER_LEFT" prefHeight="400.0" prefWidth="168.0" style="-fx-background-color: #D3D3D3;" />
+      <VBox HBox.hgrow="ALWAYS">
+         <children>
+            <VBox maxWidth="1.7976931348623157E308" prefHeight="130.0" prefWidth="432.0" spacing="5.0" VBox.vgrow="ALWAYS">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+               <children>
+                  <Label alignment="TOP_LEFT" text="Transacciones">
+                     <font>
+                        <Font name="System Bold" size="23.0" />
+                     </font>
+                  </Label>
+                  <VBox prefHeight="46.0" prefWidth="392.0" VBox.vgrow="ALWAYS" />
+                  <VBox prefHeight="185.0" prefWidth="386.0" style="-fx-border-radius: 15; -fx-border-color: black; -fx-border-width: 2; -fx-background-color: white; -fx-background-radius: 18;">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+                     </padding>
+                     <children>
+                        <HBox prefHeight="52.0" prefWidth="342.0" spacing="10.0">
+                           <children>
+                              <Label prefHeight="26.0" prefWidth="278.0" text="Titulo">
+                                 <font>
+                                    <Font name="System Bold" size="17.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="61.0" text="30.72€" textAlignment="RIGHT" textFill="#31f74f">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Label text="Descripcion" />
+                           </children>
+                        </VBox>
+                     </children>
+                     <effect>
+                        <DropShadow blurType="GAUSSIAN" height="0.0" offsetX="5.0" offsetY="5.0" radius="0.0" width="0.0" />
+                     </effect>
+                  </VBox>
+                  <VBox prefHeight="185.0" prefWidth="386.0" style="-fx-border-radius: 15; -fx-border-color: black; -fx-border-width: 2; -fx-background-color: white; -fx-background-radius: 18;">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+                     </padding>
+                     <children>
+                        <HBox prefHeight="52.0" prefWidth="342.0" spacing="10.0">
+                           <children>
+                              <Label prefHeight="26.0" prefWidth="278.0" text="Titulo">
+                                 <font>
+                                    <Font name="System Bold" size="17.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="79.0" text="-30.72€" textAlignment="RIGHT" textFill="#f53131">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Label text="Descripcion" />
+                           </children>
+                        </VBox>
+                     </children>
+                     <effect>
+                        <DropShadow blurType="GAUSSIAN" height="0.0" offsetX="5.0" offsetY="5.0" radius="0.0" width="0.0" />
+                     </effect>
+                  </VBox>
+                  <VBox prefHeight="185.0" prefWidth="386.0" style="-fx-border-radius: 15; -fx-border-color: black; -fx-border-width: 2; -fx-background-color: white; -fx-background-radius: 18;">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+                     </padding>
+                     <children>
+                        <HBox prefHeight="52.0" prefWidth="342.0" spacing="10.0">
+                           <children>
+                              <Label prefHeight="26.0" prefWidth="278.0" text="Titulo">
+                                 <font>
+                                    <Font name="System Bold" size="17.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="61.0" text="30.72€" textAlignment="RIGHT" textFill="#31f74f">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Label text="Descripcion" />
+                           </children>
+                        </VBox>
+                     </children>
+                     <effect>
+                        <DropShadow blurType="GAUSSIAN" height="0.0" offsetX="5.0" offsetY="5.0" radius="0.0" width="0.0" />
+                     </effect>
+                  </VBox>
+                  <VBox prefHeight="185.0" prefWidth="386.0" style="-fx-border-radius: 15; -fx-border-color: black; -fx-border-width: 2; -fx-background-color: white; -fx-background-radius: 18;">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+                     </padding>
+                     <children>
+                        <HBox prefHeight="52.0" prefWidth="342.0" spacing="10.0">
+                           <children>
+                              <Label prefHeight="26.0" prefWidth="278.0" text="Titulo">
+                                 <font>
+                                    <Font name="System Bold" size="17.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="61.0" text="30.72€" textAlignment="RIGHT" textFill="#31f74f">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Label text="Descripcion" />
+                           </children>
+                        </VBox>
+                     </children>
+                     <effect>
+                        <DropShadow blurType="GAUSSIAN" height="0.0" offsetX="5.0" offsetY="5.0" radius="0.0" width="0.0" />
+                     </effect>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</HBox>
