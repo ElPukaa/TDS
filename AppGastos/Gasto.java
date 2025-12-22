@@ -8,7 +8,7 @@ public class Gasto {
     private String descripcion;
     private MiembroCuenta pagador;
 
-    String DESCRIPCON_POR_DEFECTO = "";
+    String DESCRIPCION_POR_DEFECTO = "";
     Categoria CATEGORIA_POR_DEFECTO = Categoria.OTROS;
 
 
