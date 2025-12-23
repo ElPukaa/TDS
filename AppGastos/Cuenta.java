@@ -6,11 +6,11 @@ public Abstract Class Cuenta{
     private List<MiembroCuenta> miembros;
     private List<Gasto> gastos;
 
+    //getters
     public String getId() {
         return this.id;
     }
 
-    //getters
     public String getNombre(){
         return this.nombre;
     }
@@ -36,8 +36,8 @@ public Abstract Class Cuenta{
         //implementar
     }
 
-    public void calcularSaldos(){
-        //implementar
+    public Double calcularSaldos(){
+        //implementar en cada clase
     }
 
 

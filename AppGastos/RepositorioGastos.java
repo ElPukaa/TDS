@@ -1,20 +1,28 @@
 public Class RepositorioGastos{
 
     private Static RepositorioGastos INSTANCE;
-    private List<Gasto> Gastos;
+    private List<Gasto> gastos;
     private List<IObserver> observadores;
 
     public RepositorioGastos getInstance(){
         if(INSTANCE != null){
             return INSTANCE;
-        }else(
+        }else{
             INSTANCE = new RepositorioGastos();
             return INSTANCE;
-        )
+        }
+    }
+
+    public List<Gasto> getGastos(){
+        return gastos;
+    }
+
+    public List<IObserver> getObservadores(){
+        return observadores;
     }
 
     public void registrarGasto(Gasto g){
-        //implementar
+        gastos.add(g);
     }
 
     public void eliminarGasto(Gasto g){
